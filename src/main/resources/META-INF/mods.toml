@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="furryfemboy"
+version="1.0.0"
+displayName="Furry Femboy Mod"
+authors="FurryFemboy"
+description='''A friendly fox companion with the Godzilla Camolёт milk blaster.'''
+[[dependencies.furryfemboy]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.furryfemboy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.furryfemboy]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"

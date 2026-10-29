@@ -1,0 +1,3 @@
+package com.furryfemboy.client;
+import com.furryfemboy.FurryFemboyMod; import com.furryfemboy.entity.FurryFemboyEntity; import net.minecraft.resources.ResourceLocation; import software.bernie.geckolib.model.GeoModel;
+public class FurryFemboyModel extends GeoModel<FurryFemboyEntity>{ public ResourceLocation getModelResource(FurryFemboyEntity e){return new ResourceLocation(FurryFemboyMod.MOD_ID,"geo/furry_femboy.geo.json");} public ResourceLocation getTextureResource(FurryFemboyEntity e){return new ResourceLocation(FurryFemboyMod.MOD_ID,"textures/entity/furry_femboy.png");} public ResourceLocation getAnimationResource(FurryFemboyEntity e){return new ResourceLocation(FurryFemboyMod.MOD_ID,"animations/furry_femboy.animation.json");} }
